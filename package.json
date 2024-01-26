@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-qap1",
+  "version": "1.0.0",
+  "description": "Examples of npm, including core global objects and usage of an npm package.",
+  "main": "httpDemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurenwilson27/Fullstack-QAP1.git"
+  },
+  "author": "Lauren Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurenwilson27/Fullstack-QAP1/issues"
+  },
+  "homepage": "https://github.com/laurenwilson27/Fullstack-QAP1#readme"
+}

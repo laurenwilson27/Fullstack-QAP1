@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/laurenwilson27/Fullstack-QAP1/issues"
   },
-  "homepage": "https://github.com/laurenwilson27/Fullstack-QAP1#readme"
+  "homepage": "https://github.com/laurenwilson27/Fullstack-QAP1#readme",
+  "dependencies": {
+    "luxon": "^3.4.4"
+  }
 }

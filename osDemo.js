@@ -27,6 +27,16 @@ console.log("- Your hostname is " + os.hostname());
 // Show the user's operating system, and current release version
 console.log("- Your operating system is " + os.version() + " " + os.release());
 
+// Show the user's free and total memory. These functions return a value in bytes, so we need to do division to get those numbers in gigabytes
+let free = os.freemem() / 1073741824;
+let total = os.totalmem() / 1073741824;
+console.log(
+  `- Your free memory is ${free.toFixed(2)} GB / ${total.toFixed(2)} GB`
+);
+// Also calculate and show the percentage used with a bit more simple math (and also, some Math)
+let usedPercent = Math.floor(((total - free) / total) * 100);
+console.log(`  (${usedPercent}% in use)`);
+
 // Show the 'end of line' characters used by the user's operating system
 // Format os.EOL first, otherwise it'll be an actual newline...
 let eol = os.EOL.replace("\r", "\\r").replace("\n", "\\n");

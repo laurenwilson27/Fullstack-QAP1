@@ -40,4 +40,4 @@ console.log(`  (${usedPercent}% in use)`);
 // Show the 'end of line' characters used by the user's operating system
 // Format os.EOL first, otherwise it'll be an actual newline...
 let eol = os.EOL.replace("\r", "\\r").replace("\n", "\\n");
-console.log("- Your system's 'end of line' string \"" + eol + '"');
+console.log("- Your system's 'end of line' string is \"" + eol + '"');
